@@ -1,1 +1,1 @@
-console.log('rodando')
+console.log('rodando');

@@ -2,8 +2,8 @@
 import { SetupServer } from '../src/Server';
 import supertest from 'supertest';
 
-export default beforeAll(()=>{
-    const server = new SetupServer()
-    server.init();
-    //global.testRequest = supertest(server.getApp())
-})
+export default beforeAll(() => {
+  const server = new SetupServer();
+  server.init();
+  //global.testRequest = supertest(server.getApp())
+});
